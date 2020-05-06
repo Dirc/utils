@@ -14,7 +14,10 @@ Image contains:
 
 ```shell
 # Docker
-docker run --rm dirc/utils:latest 
+docker run --rm dirc/utils:latest
+
+# Kubernetes
+kubectl run util --image=dirc/utils --rm -it -- /bin/bash
 
 ```
 
