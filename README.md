@@ -9,6 +9,7 @@ Image contains:
 - curl
 - ca-certificates
 - jq
+- git
 
 ## Usage
 
