@@ -4,6 +4,7 @@ RUN apk add --no-cache \
   bash \
   curl \
   ca-certificates \
-  jq
+  jq \
+  git
 
 CMD ["/bin/bash"]
