@@ -34,7 +34,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: dirc/utils:latest, dirc/utils:${{ steps.meta.outputs.tags }}
+          tags: ${{ secrets.DOCKER_USERNAME }}/utils:latest, ${{ secrets.DOCKER_USERNAME }}/utils:${{github.ref_name}}
           
   # push_to_registry:
   #   name: Push Docker image to Docker Hub
