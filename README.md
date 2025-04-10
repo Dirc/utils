@@ -6,10 +6,12 @@ Small image containing often used utility functions and with a simple name: `dir
 Image contains:
 
 - bash
-- curl
 - ca-certificates
-- jq
+- curl
 - git
+- jq
+
+But also things like `ping` and netcat `nc`.
 
 ## Usage
 
